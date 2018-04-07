@@ -1,0 +1,65 @@
+# config/log files   #
+######################
+bin/*.sh
+*.log
+.classpath
+.settings/*
+.project
+.idea/
+*.iml
+*.ipr
+*.iws
+
+
+
+#Temporary Build Migration Ignores
+dotCMS/src/main/webapp/html/ng
+
+# Instance Files     #
+######################
+dotCMS/src/main/webapp/WEB-INF/felix/felix-cache
+dotCMS/src/main/webapp/WEB-INF/felix/osgi-extra-generated.conf
+dotCMS/src/main/webapp/WEB-INF/felix/osgi-extra.conf
+dotCMS/src/main/webapp/html/js/tinymce/jscripts/tiny_mce/*.gz
+
+_original
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Build #
+######################
+libs/test
+build/
+!dotCMS/src/main/webapp/html/js/dojo/custom-build/build/
+out/
+dotCMS/src/main/webapp/WEB-INF/generated_web.xml
+dotCMS/src/main/webapp/WEB-INF/lib/*.jar
+dotCMS/src/main/webapp/WEB-INF/felix/bundle/dot.*.jar
+dotCMS/src/main/webapp/WEB-INF/lib/plugin-*.jar
+dotCMS/starter.zip
+.ant-targets-build.xml
+.gradle/
+/*.local.*
+dotCMS/src/main/webapp/dotAdmin
+dotCMS/bin/*
+dotCMS/classes
+
+# Changes after gradle migration #
+###############################
+dist/
+dist-output/
+dotCMS/build/
+dotCMS/.gradle/
+dotCMS/.settings/
+dotCMS/src/main/webapp/WEB-INF/classes/
+dotCMS/src/main/webapp/WEB-INF/lib/
+dotCMS/src/main/webapp/WEB-INF/velocity/static/plugins/
+dotCMS/src/main/webapp/html/plugins/
+
+# immutables.github.io generated folder#
+###############################
+dotCMS/src/main/generated/

@@ -1,0 +1,52 @@
+.browserTable{font-size:100%;width:100%;margin-bottom:20px;}
+.browserTable th{font-weight:bold;padding:7px 8px;}
+.browserTable td{padding:6px 10px;border-top: 1px dotted silver;cursor: pointer;white-space: nowrap;}
+.browserTable td a{text-decoration: none; color: black;}
+.browserTableStatus td{padding:0px; border-top: 0px; cursor: pointer;white-space: nowrap;}
+
+.contentRowSelected {background: #E0E9F6;}
+.contentRowRoller {background: #E0E9F6;}
+.contentRowNotShowOnMenu {background: #EFEFEF;}
+
+.assetRef {width: 100%; display: block;}
+
+.nameTD{width: 30%;}
+.menuTD{width: 5%;text-align: center;}
+.statusTD{width: 8%;text-align: center;}
+.descriptionTD{width: 30%;}
+.modUserTD{width: 10%;}
+.modDateTD{width: 17%;}
+.nameTD img, .nameTD span {vertical-align: middle;}
+
+/* if scolling, add these.. */
+	#assetListHead{_padding-right: 0;}
+/* end if scrolling */
+
+ul, li {list-style: none;padding: 0;margin: 0;}
+#TreeUL{font-size:100%;color: black;}
+#TreeUL li li {padding: 10px 0 0 20px;}
+#TreeUL img {border: 0;vertical-align: middle;}
+#TreeUL a {cursor: pointer;color: black;}
+#TreeUL span {cursor: pointer;}
+.folderSelected {font-weight: bold;}
+.nameChangeText {font-size:100%;}
+#popups{white-space:nowrap;}
+	
+/*Context menues */
+div.contextPopupMenuBox{
+		position: absolute;
+		padding: 0;
+		margin: 0;
+		background: #fff;
+		background-color: #fff;
+		background-image: none;
+		border: 1px solid #ddd;
+		-moz-box-shadow: 2px 3px 3px rgba(0,0,0,0.3);
+		-webkit-box-shadow: 2px 3px 3px rgba(0,0,0,0.3);
+	}
+
+div.contextPopupMenuBox a{font-size: 100%; line-height: 13px; display: block; padding: 4px 12px; width: 100%; text-decoration: none; cursor: pointer;}
+div.contextPopupMenuBox a:hover{background-color: #C1D9EE;}
+div.contextPopupMenuBox a img{display: none;}
+
+div.contextMenuHover {margin-left: 3px;}
